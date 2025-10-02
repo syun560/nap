@@ -57,16 +57,6 @@ export default function Header() {
             >
               作ったもの
             </Link>
-            <Link
-              href="/donate"
-              className={`font-medium transition-colors duration-200 ${
-                pathname === '/donate' 
-                  ? 'text-green-600 dark:text-green-400' 
-                  : 'text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400'
-              }`}
-            >
-              寄付する
-            </Link>
             <a
               href="https://discord.gg/BtqQecTW"
               className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition-colors duration-200 text-sm md:text-base"
@@ -132,16 +122,6 @@ export default function Header() {
               }`}
             >
               作ったもの
-            </Link>
-            <Link
-              href="/donate"
-              className={`px-3 py-2 rounded-md font-medium transition-colors duration-200 ${
-                pathname === '/donate' 
-                  ? 'bg-green-50 dark:bg-green-950/30 text-green-700 dark:text-green-300' 
-                  : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
-              }`}
-            >
-              寄付する
             </Link>
             <a
               href="https://discord.gg/BtqQecTW"

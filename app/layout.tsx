@@ -41,13 +41,6 @@ export default function RootLayout({
         <footer className="bg-gray-100 dark:bg-gray-900 py-8 mt-auto">
           <div className="container mx-auto px-4 text-center text-gray-600 dark:text-gray-400">
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 justify-center items-center text-sm">
-              <a
-                href="/asct"
-                className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 transition-colors duration-200"
-              >
-                特定商取引法に基づく表記
-              </a>
-              <span className="hidden sm:inline">|</span>
               <span>© 2025 NEET相互扶助計画 All rights reserved.</span>
             </div>
           </div>
